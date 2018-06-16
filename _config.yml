@@ -1,9 +1,11 @@
 
 branding:
   logo_path: '/assets/logo.svg'
-  color_primary: '#174eaf'
-  color_secondary: '#f2bd3e'
-  background: '#f5f5f5'
+  navigation_background_color: '#eee'
+  navigation_link_color: '#444'
+  navigation_link_color_hover: 'gray'
+  main_background_color: '#fff'
+
 
 collections:
   patterns:

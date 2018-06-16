@@ -30,9 +30,10 @@
  *    Feel free to add your brand's color palette here.
  */
 
-$color-primary: {{ site.branding.color_primary | default: '#174eaf' }};
-$color-secondary: {{ site.branding.color_secondary | default: '#f2bd3e' }};
-$color-background: {{ site.branding.color_secondary | default: '#f5f5f5' }};
+ $navigation_background_color: {{ site.branding.navigation_background_color | default: '#eee' }};
+ $navigation_link_color: {{ site.branding.navigation_link_color | default: '#444' }};
+ $navigation_link_color_hover: {{ site.branding.navigation_link_color_hover | default: 'gray' }};
+ $main_background_color: {{ site.branding.main_background_color | default: '#fff' }};
 
 @import "abstracts/variables";
 @import "abstracts/variables_custom";
