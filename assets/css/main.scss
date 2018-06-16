@@ -24,9 +24,15 @@
    #ABSTRACTS
 \*------------------------------------*/
 
-$color-primary: {{ site.theme_color_primary }};
-$color-secondary: {{ site.theme_color_secondary }};
-$color-background: {{ site.theme_color_secondary }};
+/**
+ * Brand Colors customizable in jekyll config
+ * 1) Main identifiable colors involved in creating the UI
+ *    Feel free to add your brand's color palette here.
+ */
+
+$color-primary: {{ site.branding.color_primary | default: '#174eaf' }};
+$color-secondary: {{ site.branding.color_secondary | default: '#f2bd3e' }};
+$color-background: {{ site.branding.color_secondary | default: '#f5f5f5' }};
 
 @import "abstracts/variables";
 @import "abstracts/variables_custom";
